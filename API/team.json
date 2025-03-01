@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Geeky",
+        "role": "Founder",
+        "bio": "Veni, Vidi, Vici",
+        "image": "https://github.com/Kizziama.png",
+        "telegram": "https://t.me/Kizziama",
+        "github": "https://github.com/Kizziama",
+        "email": "mailto:geeky@fortune.web.id"
+    },
+    {
+        "name": "Luigiee",
+        "role": "Co Founder",
+        "bio": "None",
+        "image": "https://github.com/fourninesix.png",
+        "telegram": "https://t.me/Luigiee",
+        "github": "https://github.com/fourninesix",
+        "email": "mailto:luigiee@fortune.web.id"
+    },
+    {
+        "name": "Mikazu",
+        "role": "Developer",
+        "bio": "None",
+        "image": "https://github.com/Mikazuuu07.png",
+        "telegram": "https://t.me/Mikazuuu07",
+        "github": "https://github.com/Mikazuuu07",
+        "email": "mailto:mikazu@fortune.web.id"
+    },
+    {
+        "name": "Ramadhani",
+        "role": "Designer/Developer",
+        "bio": "None",
+        "image": "https://github.com/ramaadni.png",
+        "telegram": "https://t.me/ramaadni",
+        "github": "https://github.com/ramaadni",
+        "email": "mailto:ramadhani@fortune.web.id"
+    },
+    {
+        "name": "Piyyy",
+        "role": "Core Contributor",
+        "bio": "None",
+        "image": "https://github.com/Piyyy.png",
+        "telegram": "https://t.me/piyskrrt",
+        "github": "https://github.com/Piyyy",
+        "email": "mailto:piyyy@fortune.web.id"
+    },
+    {
+        "name": "Soni Dharma",
+        "role": "Core Contributor",
+        "bio": "None",
+        "image": "https://github.com/Hikari-Soni.png",
+        "telegram": "https://t.me/StartTrueDreams",
+        "github": "https://github.com/Hikari-Soni",
+        "email": "mailto:soni@fortune.web.id"
+    }
+]
