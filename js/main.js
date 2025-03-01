@@ -75,22 +75,4 @@ document.addEventListener("DOMContentLoaded", function () {
       hamburgerIcon.classList.remove("fa-xmark");
     });
   });
-
-  document
-    .getElementById("searchDevice")
-    .addEventListener("keyup", function () {
-      let filter = this.value.toLowerCase();
-      let devices = document.querySelectorAll(".device-item");
-
-      devices.forEach((device) => {
-        let deviceName = device
-          .querySelector(".accordion-button")
-          .innerText.toLowerCase();
-        if (deviceName.includes(filter)) {
-          device.style.display = "";
-        } else {
-          device.style.display = "none";
-        }
-      });
-    });
 });

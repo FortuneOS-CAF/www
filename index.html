@@ -280,106 +280,26 @@
     </section>
 
     <section id="devices" class="section-content device-section py-5">
-      <div class="container">
-        <h2 class="text-center fw-bold mb-4">Supported Devices</h2>
-        <!-- Search Bar -->
-        <div class="mb-3">
-          <input
-            type="text"
-            id="searchDevice"
-            class="form-control shadow"
-            placeholder="Search list of supported devices"
-          />
-        </div>
-        <div class="accordion-card card shadow p-3">
-          <div class="accordion accordion-flush" id="deviceAccordion">
-            <div class="accordion-item device-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#device1"
-                  aria-expanded="false"
-                >
-                  Redmi Note 12 4G/4G NFC (topaz/tapas)
-                </button>
-              </h2>
-              <div
-                id="device1"
-                class="accordion-collapse collapse"
-                data-bs-parent="#deviceAccordion"
-              >
-                <div class="accordion-body d-flex align-items-center">
-                  <img
-                    src="assets/topaz.png"
-                    alt="Redmi Note 12 4G/4G NFC"
-                    class="img-fluid rounded"
-                    style="width: 120px"
-                  />
-                  <div class="ms-3">
-                    <p class="mb-2">Maintainer: Luigiee x Kizziama</p>
-                    <div class="d-grid gap-2 w-100">
-                      <a href="#" class="btn custom-btn btn-sm rounded-pill">
-                        <i class="fa-solid fa-download"></i> Download
-                      </a>
-                      <a href="#" class="btn custom-btn btn-sm rounded-pill">
-                        <i class="fa-solid fa-file-alt"></i> Changelog
-                      </a>
-                      <a href="#" class="btn custom-btn btn-sm rounded-pill">
-                        <i class="fa-solid fa-comments"></i> Support
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div class="container">
+                <h2 class="text-center fw-bold mb-4">Supported Devices</h2>
 
-            <div class="accordion-item device-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#device2"
-                  aria-expanded="false"
-                >
-                  Redmi Note 13 Pro 5G / Poco X6 (garnet)
-                </button>
-              </h2>
-              <div
-                id="device2"
-                class="accordion-collapse collapse"
-                data-bs-parent="#deviceAccordion"
-              >
-                <div class="accordion-body d-flex align-items-center">
-                  <img
-                    src="assets/garnet.png"
-                    alt="Redmi Note 13 Pro 5G / Poco X6"
-                    class="img-fluid rounded"
-                    style="width: 120px"
-                  />
-                  <div class="ms-3">
-                    <p class="mb-2">Maintainer: Soni Dharma</p>
-                    <div class="d-grid gap-2 w-100">
-                      <a href="#" class="btn custom-btn btn-sm rounded-pill">
-                        <i class="fa-solid fa-download"></i> Download
-                      </a>
-                      <a href="#" class="btn custom-btn btn-sm rounded-pill">
-                        <i class="fa-solid fa-file-alt"></i> Changelog
-                      </a>
-                      <a href="#" class="btn custom-btn btn-sm rounded-pill">
-                        <i class="fa-solid fa-comments"></i> Support
-                      </a>
-                    </div>
-                  </div>
+                <div class="mb-3">
+                    <input
+                        type="text"
+                        id="searchDevice"
+                        class="form-control shadow"
+                        placeholder="Search list of supported devices"
+                    />
                 </div>
-              </div>
+
+                <div class="accordion-card card shadow p-3">
+                    <div
+                        class="accordion accordion-flush"
+                        id="deviceAccordion"
+                    ></div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
     <footer
       class="footer mt-5 py-4"
@@ -425,5 +345,6 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script src="js/acc.js"></script>
   </body>
 </html>

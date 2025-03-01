@@ -1,0 +1,12 @@
+[
+    {
+        "id": "device1",
+        "name": "Redmi Note 12 4G/4G NFC",
+        "code": "topaz/tapas",
+        "image": "assets/topaz.png",
+        "maintainer": "Luigiee x Kizziama",
+        "download": "#",
+        "changelog": "#",
+        "support": "#"
+    }
+]
