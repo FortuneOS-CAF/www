@@ -31,13 +31,18 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    hideAllSections();
-    showSection("#home");
+    function handleHashChange() {
+        const targetId = window.location.hash || "#home";
+        showSection(targetId);
+    }
+
+    window.addEventListener("hashchange", handleHashChange);
+    handleHashChange();
 
     if (brandLink) {
         brandLink.addEventListener("click", function (event) {
             event.preventDefault();
-            showSection("#home");
+            window.location.hash = "#home";
         });
     }
 
@@ -46,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const targetId = this.getAttribute("href");
             if (targetId.startsWith("#")) {
                 event.preventDefault();
-                showSection(targetId);
+                window.location.hash = targetId;
             }
         });
     });
@@ -76,4 +81,3 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
-
