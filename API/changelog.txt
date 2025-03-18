@@ -1,0 +1,23 @@
+v1.0 | Viola
+- Based from LA.QSSI.15.0.r1-14100-qssi.0
+- March 2025 security patch
+- SystemUI: Show daily data usage in QS footer
+- Add lockscreen charging info
+- Add support for LMOFreeform service
+- Add support for GameSpace
+- Add three-fingers-swipe to screenshot
+- Add Network traffic indicator
+- Add support for window ignore secure
+- Add toggle Google Play Integrity Spoofing
+- Add support Circle To Search
+- Implement Smartspace
+- Introduce Immersive Navigation
+- Implement hide gestural navigation hint bar
+- Implement hide gestural navigation hint bar
+- Add Pocket Mode
+- Show bluetooth battery level on statusbar
+- Add statusbar icons tuner
+- Add faceunlock support with ParanoidSense
+- Implement cutout foce full screen apps
+- Add support black thwme Mode
+- Redesign Settings UI
